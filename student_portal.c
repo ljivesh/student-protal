@@ -5,6 +5,8 @@ struct student {
     char name[50];
     float percentage;
 };
+
+///Hello
 void stuip(struct student* s){
     printf ("Enter the id of the student: ");
     scanf ("%d", &s->id);
